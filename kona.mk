@@ -132,6 +132,7 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libsndmonitor \
     libspkrprot \
+    libtinycompress \
     libvisualizer \
     libvolumelistener
 
