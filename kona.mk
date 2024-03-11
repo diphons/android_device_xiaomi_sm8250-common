@@ -441,6 +441,7 @@ $(call inherit-product, vendor/hardware/xiaomi/hidl/sensors/sensors_product.mk)
 
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
+    android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@2.0 \
     android.hardware.sensors@2.1
 
