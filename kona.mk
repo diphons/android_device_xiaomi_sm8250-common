@@ -427,7 +427,9 @@ TARGET_USES_XIAOMI_SENSOR_HAL_1_0 := true
 $(call inherit-product, vendor/hardware/xiaomi/hidl/sensors/sensors_product.mk)
 
 PRODUCT_PACKAGES += \
-    libsensorndkbridge
+    libsensorndkbridge \
+    android.hardware.sensors@2.0 \
+    android.hardware.sensors@2.1
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
