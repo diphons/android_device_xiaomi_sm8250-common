@@ -372,7 +372,7 @@ system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
--system_ext/priv-app/ims/ims.apk|6ddec8df47b66c1903de79c7cfb790d2381bb987
+-system_ext/priv-app/ims/ims.apk|15ff2ffe456ec58bd10ff9f947899f225df42f09
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
