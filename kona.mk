@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# Aperture 
+PRODUCT_PACKAGES += \
+    Aperture
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
