@@ -410,7 +410,7 @@ PRODUCT_USES_QCOM_HARDWARE := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.statix-libperfmgr \
+    android.hardware.power-service.lineage-libperfmgr \
     libqti-perfd-client \
     android.hardware.power@1.2.vendor
 
@@ -469,7 +469,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 TARGET_USES_XIAOMI_SENSOR_HAL_1_0 := true
-$(call inherit-product, vendor/hardware/xiaomi/hidl/sensors/sensors_product.mk)
+$(call inherit-product, hardware/xiaomi/hidl/sensors/sensors_product.mk)
 
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
@@ -482,9 +482,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/statix/interfaces/power-libperfmgr \
+    hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
-    vendor/hardware/xiaomi \
+    hardware/xiaomi \
     vendor/qcom/opensource/usb/etc
 
 # Telephony
